@@ -1,11 +1,10 @@
 import React from 'react';
 import './App.scss';
+import Routes from './routes.cofig';
 
 function App() {
   return (
-    <div>
-      Entry Point
-    </div>
+      <Routes/>
   );
 }
 
